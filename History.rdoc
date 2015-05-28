@@ -1,0 +1,8 @@
+=== Version 0.0.2 / 2015-05-28
+
+* Bug fix: Fixed a task dependency issue that went undetected until after the previous release.
+
+
+=== Version 0.0.1 / 2015-05-28
+
+* Initial release

@@ -37,7 +37,7 @@ module Racatt
     end
 
     desc 'Test All The Things!'
-    task :test_everything, [:command_options] => [:clear_coverage] do |_t, args|
+    task :test_everything, [:command_options] do |_t, args|
       Rake::Task["#{current_scope}:rspec:specs"].invoke(args[:command_options])
       Rake::Task["#{current_scope}:cucumber:features"].invoke(args[:command_options])
     end

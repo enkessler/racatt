@@ -26,7 +26,8 @@ Or install it yourself as:
 
     require 'racatt'
 
-  and then call its task creation method to generate Rake tasks that can kick off a
+  and then call its task creation method in your Rakefile (or wherever it is that you
+  like to put your Rake tasks) in order to generate Rake tasks that can kick off a
   combined RSpec and Cucumber test suite.
 
     Racatt.create_tasks

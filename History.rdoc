@@ -1,3 +1,8 @@
+=== Version 0.0.3 / 2016-01-20
+
+* Bug fix: Fixed a task scoping bug where the combined Rake task would only work if the gem's tasks were created inside of a namespace.
+
+
 === Version 0.0.2 / 2015-05-28
 
 * Bug fix: Fixed a task dependency issue that went undetected until after the previous release.

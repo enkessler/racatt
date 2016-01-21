@@ -38,8 +38,10 @@ module Racatt
 
     desc 'Test All The Things!'
     task :test_everything, [:command_options] do |_t, args|
-      Rake::Task["#{current_scope}:rspec:specs"].invoke(args[:command_options])
-      Rake::Task["#{current_scope}:cucumber:features"].invoke(args[:command_options])
+      scope_string = current_scope.empty? ? '' : "#{current_scope}:"
+
+      Rake::Task["#{scope_string}rspec:specs"].invoke(args[:command_options])
+      Rake::Task["#{scope_string}cucumber:features"].invoke(args[:command_options])
     end
 
   end

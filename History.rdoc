@@ -1,3 +1,9 @@
+=== Version 1.0.0 / 2016-01-27
+
+* Separate argument lists can be given to the RSpec and Cucumber tasks instead of having to use the same arguments for both.
+* There are no default arguments used by either the RSpec or the Cucumber task. Only the arguments that are provided are used.
+
+
 === Version 0.0.3 / 2016-01-20
 
 * Bug fix: Fixed a task scoping bug where the combined Rake task would only work if the gem's tasks were created inside of a namespace.

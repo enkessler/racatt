@@ -1,5 +1,11 @@
 # Racatt
 
+---
+
+**Attention**: This gem is no longer actively maintained.
+
+---
+
   Do you use RSPec to test your application? How about Cucumber? Do you, like myself, use both
   and have gotten tired of writing Rake tasks for 'one click' testing for the umpteenth time? Then
   search no more and enjoy some pre-written Rake tasks that do just that! You can even use command
